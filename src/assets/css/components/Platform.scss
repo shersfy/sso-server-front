@@ -1,0 +1,68 @@
+.platform {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 6px;
+    position: relative;
+    .platform_header {
+        width: 100%;
+        line-height: 64px;
+        font-size: 16px;
+        color: #393d4f;
+        font-weight: bold;
+        border-bottom: 2px solid #e9eff4;
+        position: relative;
+        >div {
+            display: inline-block;
+        }
+        .platform_header_line {
+            width: 6px;
+            height: 24px;
+            background-color: $blue;
+            vertical-align: sub;
+            margin-right: 14px;
+        }
+        .platform_header_horn {
+            position: absolute;
+            right: 0;
+            top: 0;
+            img {
+                margin-top: 24px;
+                margin-right: 30px;
+            }
+        }
+    }
+    .platform_entrance {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px 40px 0 40px;
+        .platform_entrance_lattice {
+            width: 88px;
+            height: 120px;
+            margin-bottom: 40px;
+            margin-right: 60px;
+            >div:hover {
+                cursor: pointer;
+                color: $blue;
+            }
+            .platform_entrance_lattice_icon {
+                width: 88px;
+                height: 88px;
+                background-color: #c8d7db;
+                border-radius: 3px;
+                img {
+                    width: 88px;
+                    height: 88px;
+                }
+            }
+            .platform_entrance_lattice_text {
+                margin-top: 10px;
+                width: 88px;
+                line-height: 25px;
+                font-size: 14px;
+                color: #393d4f;
+                text-align: center;
+            }
+        }
+    }
+}

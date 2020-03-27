@@ -1,0 +1,11 @@
+// 引入基础变量
+@import 'reset';
+// 页面样式
+@import 'page/Login';
+@import 'page/Home';
+@import 'page/userControl';
+// 组件样式
+@import 'components/Header';
+@import 'components/SearchOne';
+@import 'components/Platform';
+@import 'components/PersonalForm';

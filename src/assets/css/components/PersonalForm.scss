@@ -1,0 +1,62 @@
+.personal_form_1 {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.03);
+    margin-top: 30px;
+    .personalInfor {
+        width: 100%;
+        line-height: 64px;
+        border-bottom: solid 2px #e9eff4;
+        position: relative;
+        div {
+            display: inline-block;
+        }
+        .personalInfor_1 {
+            width: 6px;
+            height: 24px;
+            background-color: #393d4f;
+            vertical-align: middle;
+        }
+        .personalInfor_2 {
+            font-size: 14px;
+            color: #393d4f;
+            font-weight: bold;
+            margin-left: 20px;
+        }
+        .personalInfor_3 {
+            position: absolute;
+            right: 20px;
+        }
+    }
+}
+.personalField{
+    border-bottom: solid 1px #f0f0f0;
+    .personalFieldName{
+        font-size: 14px;
+        color: #666666;
+        line-height: 70px;
+        padding-left: 30px;
+    }
+    .personalFieldInput{
+        line-height: 70px;
+    }
+}
+.personalField_2{
+    background-color: #fdfdfd;
+}
+.form_border_right{
+    border-right: 1px solid #f0f0f0;
+}
+
+.personalFieldImg{
+    >span>img{
+        width: 44px;
+        height: 44px;
+        margin-right: 30px;
+        margin-top: 14px;
+        border: 1px solid #f0f0f0;
+    }
+    >div{
+        display:inline-block;
+    }
+}

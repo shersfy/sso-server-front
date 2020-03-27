@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(244, 248, 249, 1);
+}
+
+.home {
+    width: 100%;
+    padding: 80px 30px;
+    padding-top: 100px;
+    .home_search_one{
+        margin-top: 30px;
+    }
+    .home_platform{
+        margin-top: 30px;
+        >div{
+            margin-bottom: 30px;
+            background-color: #ffffff;
+        }
+    }
+}
+
+.list_img_size{
+    width: 20px;
+    height: 20px;
+}
+.form_img_style{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.auth_table_button{
+    width: 75px;
+    height: 45px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    text-align: center;
+    z-index: 999;
+}

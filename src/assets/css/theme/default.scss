@@ -1,0 +1,62 @@
+$themeColor: #393d4f !default;
+
+/* 基础颜色
+-------------------------- */
+
+$white: #fff !default;
+$blue: #1e88e5 !default;
+$red: #ff0000 !default;
+$darkGray: #333333 !default;
+
+/* 基本设置
+-------------------------- */
+
+$basicSpace: 10px !default;
+$basicMargin: $basicSpace !default;
+$basicPadding: $basicMargin !default;
+$linkColor: $themeColor !default;
+
+/* 字体设置
+-------------------------- */
+
+
+/* 非响应式基本字号大小 */
+
+$fontSize: 14px !default;
+$fontFamily: "Helvetica",
+"Microsoft Yahei",
+san-serif !default;
+$fontColor: $darkGray !default;
+
+/* 组件设置
+-------------------------- */
+
+
+/* login */
+
+$loginBtn: $blue !default;
+$loginTextColor: darken($white, 100%) !default;
+
+/* ele样式修改 */
+
+.el-dialog__header {
+    padding: 0;
+    height: 70px;
+    background-color: $themeColor;
+    width: 100%;
+    .dialog_title {
+        color: $white;
+        font-size: 16px;
+        line-height: 70px;
+        margin-left: 30px;
+        i{
+            margin-right: 10px;
+        }
+    }
+}
+.el-button--small {
+    padding: 9px 10px;
+}
+.el-button--mini {
+    padding: 7px 10px;
+}

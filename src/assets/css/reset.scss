@@ -1,0 +1,272 @@
+html,
+body,
+div,
+section,
+header,
+footer,
+aside,
+ul,
+ol,
+li,
+table,
+tr,
+th,
+td,
+button,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+i,
+strong,
+p,
+span,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+th,
+i,
+strong,
+input,
+textarea,
+button,
+select {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+}
+
+ul,
+ol {
+    list-style: none;
+    vertical-align: top;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+button,
+select,
+textarea {
+    outline: none;
+    background: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img,
+a img {
+    border: none;
+    vertical-align: top;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+    color: $linkColor;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+    color: $blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: $fontSize;
+    font-family: $fontFamily;
+    color: $fontColor;
+    height: 100%;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fc {
+    margin: 0 auto;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+
+/**显示隐藏**/
+
+.hidden {
+    display: none;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+
+/**定位**/
+
+.posR {
+    position: relative;
+}
+
+.posA {
+    position: absolute;
+}
+
+.posF {
+    position: fixed;
+}
+
+.fb {
+    font-weight: bold;
+}
+
+.textL {
+    text-align: left;
+}
+
+.textC {
+    text-align: center;
+}
+
+.textR {
+    text-align: right;
+}
+
+.text2em {
+    text-indent: 2em;
+}
+
+.word-hidden {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+    /* WebKit browsers*/
+    color: #999999;
+    font-size: 13px;
+    transition: background-color 50000s ease-in-out 0s;
+}
+
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18*/
+    color: #999999;
+    font-size: 13px;
+    transition: background-color 50000s ease-in-out 0s;
+}
+
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+*/
+    color: #999999;
+    font-size: 13px;
+    transition: background-color 50000s ease-in-out 0s;
+}
+
+input:-ms-input-placeholder {
+    /* Internet Explorer 10+*/
+    color: #999999;
+    font-size: 13px;
+    transition: background-color 50000s ease-in-out 0s;
+}
+
+input:-webkit-autofill {
+    transition: background-color 5000s ease-in-out 0s;
+}
+//table表格对不齐
+body .el-table th.gutter {
+    display: table-cell!important;
+}
+.el-table__row{
+  td:not(.is-hidden):last-child{
+  right:-1px;}
+}
+.el-table th.is-leaf, .el-table td {
+    border-bottom: 1.1px solid #EBEEF5;
+}
+//自定义textbutton
+.textBtn {
+    border-color: transparent;
+    color: #409EFF;
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.textBtn:hover {
+    cursor: pointer;
+}
+
+.textBtn+.textBtn {
+    margin-left: 10px;
+}
+//输入框剩余字符展示 开始
+.formLenBox {
+    display: inline-block;
+    font-size: 12px;
+    color: #999999;
+    height: 14px;
+    padding: 0 2px;
+    float: right;
+    margin-top: 2px;
+}
+
+.formCuscontent .el-form-item__content {
+    line-height: inherit;
+}
+
+.formCuscontent .el-form-item__error {
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    margin-top: 2px;
+}
+
+//输入框剩余字符展示 结束
